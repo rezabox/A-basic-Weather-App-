@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');  
+
+  font-family: 'Open Sans', sans-serif;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+.card{
+  background: #eaeaea77;
+  color: black;
+  padding: 20px;
+  width: 50%;
+  border-radius: 12px;
+}
+.search{
+  margin-left: 80px;
+}
+.search,.search-type{
+  height: 2rem;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  border-radius: 12px;
+  border: none;
+}
+.search-btn{
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 30px;
+  border: none;
+  margin-left: -34px;
+}
+h2{
+  margin-top:20px ;
+}
+.temp{
+  font-weight: 900;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+@media screen and (max-width:600px){
+  .card{
+   width: 80%;
+  }
+  .search{
+    margin-left: 50px;
+  }
+}
